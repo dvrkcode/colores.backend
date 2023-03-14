@@ -19,7 +19,7 @@ app.use(morgan("dev"));
 app.use(router)
 
 
-const PORT = 5174;
+const PORT = 5050;
 
 app.listen(PORT,() => {
   console.log(`Running on PORT ${PORT}`);
